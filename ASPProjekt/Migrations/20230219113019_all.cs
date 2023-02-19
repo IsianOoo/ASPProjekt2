@@ -206,9 +206,9 @@ namespace ASPProjekt.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "2c5e174e-3b0e-446f-86af-483d56fd7210", "6a6a05cc-6e9b-4c55-8d67-2e376675bf87", "Admin", "ADMIN" },
-                    { "2c5e174e-3b0e-446f-86af-483d56fd7211", "86b49e6f-e098-4cc9-a8bf-6177ea6f3850", "User", "USER" },
-                    { "2c5e174e-3b0e-446f-86af-483d56fd7212", "ff17b84e-a0f7-4061-82e5-b1b8f013bdc4", "Dev", "DEV" }
+                    { "2c5e174e-3b0e-446f-86af-483d56fd7210", "38464da8-3bbe-447b-895d-995658a58ca6", "Admin", "ADMIN" },
+                    { "2c5e174e-3b0e-446f-86af-483d56fd7211", "60947e62-bee5-4187-8240-7c85e63ada71", "User", "USER" },
+                    { "2c5e174e-3b0e-446f-86af-483d56fd7212", "cb585368-1d21-4469-ac45-a51e85a5a5a6", "Dev", "DEV" }
                 });
 
             migrationBuilder.InsertData(
@@ -216,9 +216,9 @@ namespace ASPProjekt.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Discriminator", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "8e445865-a24d-4543-a6c6-9443d048cdb7", 0, "3ddedf6b-e975-4e05-bfcf-a9c7bc6324c9", "ApplicationUser", "dev@dev.dev", false, "Dev", "Dev", false, null, "DEV@DEV.DEV", "DEV@DEV.DEV", "AQAAAAEAACcQAAAAEI+b0HIvdbZz6Fa1V2yKlslJZkHu6rhzloPM8vSgH8PoTgsW9QUdCjGO1BmVmPDMIg==", "987654321", false, "f1173e02-d247-42f4-a1f6-b9ddebbbd5b3", false, "dev@dev.dev" },
-                    { "8e445865-a24d-4543-a6c6-9443d048cdb8", 0, "a0006e33-279a-4a8b-bb73-1cb21046fae0", "ApplicationUser", "user@user.user", false, "User", "User", false, null, "USER@USER.USER", "USER@USER.USER", "AQAAAAEAACcQAAAAEHQJ7wO4+9tLx+ga88mu4r00xRUlTqot7ZMwvOUNYBKz7/t0uqWmedEH29OHcrsVkw==", "987654321", false, "92b2e15a-0719-4f7d-8ece-d8f9ae5f858e", false, "user@user.user" },
-                    { "8e445865-a24d-4543-a6c6-9443d048cdb9", 0, "b509daaf-eb7e-4702-bdce-6e3d5422f19d", "ApplicationUser", "admin@admin.admin", false, "Admin", "Admin", false, null, "ADMIN@ADMIN.ADMIN", "ADMIN@ADMIN.ADMIN", "AQAAAAEAACcQAAAAEGFm1vh7gGFe4yG6V6oNaXPhHLlXAMGRel1UtuwrJ6RpdyP7luPUOJfhaM6GghK7zw==", "123456789", false, "9cbe1658-dfc0-41a3-9902-9b78b9bd52f4", false, "admin@admin.admin" }
+                    { "8e445865-a24d-4543-a6c6-9443d048cdb7", 0, "03b3e7cd-7e87-4de1-bfbf-9aaa2f38f3b3", "ApplicationUser", "dev@dev.dev", false, "Dev", "Dev", false, null, "DEV@DEV.DEV", "DEV@DEV.DEV", "AQAAAAEAACcQAAAAEDnHV1e+RIc5CFYIErRikRl60swj9qTgKq+X/e/L1VqJ6v9dmssADFQsPYzJ41XWiA==", "987654321", false, "ec266bc6-d59b-448a-8e3a-74a52b9df485", false, "dev@dev.dev" },
+                    { "8e445865-a24d-4543-a6c6-9443d048cdb8", 0, "739926c7-96c6-40d8-aa2b-a7d3dd76690f", "ApplicationUser", "user@user.user", false, "User", "User", false, null, "USER@USER.USER", "USER@USER.USER", "AQAAAAEAACcQAAAAEMPDo05C23kOA6QNL9rvVabMGYNRKZO4jK9KoR+iiJOAIuT8TKETczk3l2hE/xYvdg==", "987654321", false, "4d85e51d-4e56-4761-95eb-d4c00ccd5a3a", false, "user@user.user" },
+                    { "8e445865-a24d-4543-a6c6-9443d048cdb9", 0, "d6c3fbd6-e3db-47d6-8b28-2f966bc54c03", "ApplicationUser", "admin@admin.admin", false, "Admin", "Admin", false, null, "ADMIN@ADMIN.ADMIN", "ADMIN@ADMIN.ADMIN", "AQAAAAEAACcQAAAAEHawdf74V5xs6g7Zmf1oaxwFJNCNWDJxqwj9I9BqQh5PIvmGh7rYNg9YRmliMcIYKw==", "123456789", false, "3adcd6c5-1567-4547-9978-67c0853c9119", false, "admin@admin.admin" }
                 });
 
             migrationBuilder.InsertData(

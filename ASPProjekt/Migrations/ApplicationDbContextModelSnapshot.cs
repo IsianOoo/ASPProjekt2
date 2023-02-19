@@ -123,21 +123,21 @@ namespace ASPProjekt.Migrations
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7210",
-                            ConcurrencyStamp = "6a6a05cc-6e9b-4c55-8d67-2e376675bf87",
+                            ConcurrencyStamp = "38464da8-3bbe-447b-895d-995658a58ca6",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7211",
-                            ConcurrencyStamp = "86b49e6f-e098-4cc9-a8bf-6177ea6f3850",
+                            ConcurrencyStamp = "60947e62-bee5-4187-8240-7c85e63ada71",
                             Name = "User",
                             NormalizedName = "USER"
                         },
                         new
                         {
                             Id = "2c5e174e-3b0e-446f-86af-483d56fd7212",
-                            ConcurrencyStamp = "ff17b84e-a0f7-4061-82e5-b1b8f013bdc4",
+                            ConcurrencyStamp = "cb585368-1d21-4469-ac45-a51e85a5a5a6",
                             Name = "Dev",
                             NormalizedName = "DEV"
                         });
@@ -362,16 +362,16 @@ namespace ASPProjekt.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b509daaf-eb7e-4702-bdce-6e3d5422f19d",
+                            ConcurrencyStamp = "d6c3fbd6-e3db-47d6-8b28-2f966bc54c03",
                             Email = "admin@admin.admin",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@ADMIN.ADMIN",
                             NormalizedUserName = "ADMIN@ADMIN.ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAEGFm1vh7gGFe4yG6V6oNaXPhHLlXAMGRel1UtuwrJ6RpdyP7luPUOJfhaM6GghK7zw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEHawdf74V5xs6g7Zmf1oaxwFJNCNWDJxqwj9I9BqQh5PIvmGh7rYNg9YRmliMcIYKw==",
                             PhoneNumber = "123456789",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "9cbe1658-dfc0-41a3-9902-9b78b9bd52f4",
+                            SecurityStamp = "3adcd6c5-1567-4547-9978-67c0853c9119",
                             TwoFactorEnabled = false,
                             UserName = "admin@admin.admin",
                             FirstName = "Admin",
@@ -381,16 +381,16 @@ namespace ASPProjekt.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb8",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "a0006e33-279a-4a8b-bb73-1cb21046fae0",
+                            ConcurrencyStamp = "739926c7-96c6-40d8-aa2b-a7d3dd76690f",
                             Email = "user@user.user",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@USER.USER",
                             NormalizedUserName = "USER@USER.USER",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHQJ7wO4+9tLx+ga88mu4r00xRUlTqot7ZMwvOUNYBKz7/t0uqWmedEH29OHcrsVkw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEMPDo05C23kOA6QNL9rvVabMGYNRKZO4jK9KoR+iiJOAIuT8TKETczk3l2hE/xYvdg==",
                             PhoneNumber = "987654321",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "92b2e15a-0719-4f7d-8ece-d8f9ae5f858e",
+                            SecurityStamp = "4d85e51d-4e56-4761-95eb-d4c00ccd5a3a",
                             TwoFactorEnabled = false,
                             UserName = "user@user.user",
                             FirstName = "User",
@@ -400,16 +400,16 @@ namespace ASPProjekt.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb7",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "3ddedf6b-e975-4e05-bfcf-a9c7bc6324c9",
+                            ConcurrencyStamp = "03b3e7cd-7e87-4de1-bfbf-9aaa2f38f3b3",
                             Email = "dev@dev.dev",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "DEV@DEV.DEV",
                             NormalizedUserName = "DEV@DEV.DEV",
-                            PasswordHash = "AQAAAAEAACcQAAAAEI+b0HIvdbZz6Fa1V2yKlslJZkHu6rhzloPM8vSgH8PoTgsW9QUdCjGO1BmVmPDMIg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEDnHV1e+RIc5CFYIErRikRl60swj9qTgKq+X/e/L1VqJ6v9dmssADFQsPYzJ41XWiA==",
                             PhoneNumber = "987654321",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "f1173e02-d247-42f4-a1f6-b9ddebbbd5b3",
+                            SecurityStamp = "ec266bc6-d59b-448a-8e3a-74a52b9df485",
                             TwoFactorEnabled = false,
                             UserName = "dev@dev.dev",
                             FirstName = "Dev",
