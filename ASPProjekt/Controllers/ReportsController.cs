@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ASPProjekt.Data;
 using ASPProjekt.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ASPProjekt.Controllers
 {
+    [Authorize(Roles = "Admin,User,Dev")]
     public class ReportsController : Controller
     {
         private readonly ApplicationDbContext dbContext;
